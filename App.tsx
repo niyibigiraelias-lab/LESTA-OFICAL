@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ChatMessage, MessageAuthor } from './types';
-import { getEliasResponse } from './services/geminiService';
+import { getEliasResponse } from './services/geminiService.ts';
 import Header from './components/Header';
 import ChatWindow from './components/ChatWindow';
 import InputBar from './components/InputBar';
